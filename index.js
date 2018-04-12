@@ -33,5 +33,7 @@ function removeFirstDriver(){
   
 }
 function removeLastDriver(){
-  
+  newArray = drivers.slice()
+  newArray.pop()
+  return newArray
 }
