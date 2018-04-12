@@ -28,7 +28,7 @@ function prependDriver(name){
 }
 function removeFirstDriver(){
   newArray = drivers.slice()
-  newArray.shift()
+
   return newArray
   
 }
